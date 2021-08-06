@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    
+    /* background image covers whole page */
+    background-image: url("background_night.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* hide scrollbar (feature deleted, only works in chrome), smooth animation for function "scrollIntoView" */
+    scroll-behavior: smooth;
+}
+
+.pageContainer {
+    /* covers whole body */
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.page {
+    width: 75%;
+    height: 75%;
+
+    /* transparent black as background */
+    background: rgba(0, 0, 0, 0.5);
+
+    /* place in center of page */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25%;
+    margin-bottom: 6.25%;
+
+    /* make the items inside center (flexible parent) */
+    align-items: center
+}
+
+#head {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title1 {
+    margin-bottom: 10%;
+}
+
+#head1 {
+    font-size: 50px;
+    text-align: center;
+    color: #03ac13;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #fff200,
+                10px 10px 0px #e56717,
+                15px 15px 0px #e3242b
+}
+
+#head2 {
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    width: 900px;
+    height: auto;
+
+    color: #fc94af;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #3895d3, 
+              10px 10px 0px #03ac13, 
+              15px 15px 0px #fff200,
+              20px 20px 0px #e56717,
+              25px 25px 0px #e3242b
+}
+
+#section4 {
+    padding-bottom: 45%;
+}
+
+.card {
+    width: 25%;
+    margin-left: 4%;
+    margin-right:4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+}
+
+#c4 {
+    margin-top: 15%;
+}
+
+.pageS {
+    height: 10%;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    color: white;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+}
+
+.titleS {
+    font-size: 70px;
+}
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background:black;
+    color: white;
+}
+
+#self {
+    width: 80%;
+    margin-left: 2%;
+}
+
+.text2 {
+    color: white;
+}
+
+#linkF {
+    color: white;
+}
